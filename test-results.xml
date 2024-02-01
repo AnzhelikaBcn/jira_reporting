@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-results>
+  <test-suite name="Mocha Tests" time="2.163" tests="1" failures="0">
+    <test-suite name="Root Suite" timestamp="2024-02-01T12:50:35" tests="0" file="cypress/e2e/spec-copy-1.cy.js" time="0.000" failures="0">
+    </test-suite>
+    <test-suite name="template spec" timestamp="2024-02-01T12:50:35" tests="1" time="2.150" failures="0">
+      <test-case name="template spec passes" time="0.590" classname="passes" result="Success" />
+    </test-suite>
+  </test-suite>
+</test-results>
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.014" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-02-01T15:34:43" tests="0" file="cypress/e2e/spec-copy-1.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="template spec" timestamp="2024-02-01T15:34:43" tests="1" time="2.001" failures="0">
+    <testcase name="template spec passes" time="0.475" classname="passes">
+    </testcase>
+  </testsuite>
+</testsuites> -->
