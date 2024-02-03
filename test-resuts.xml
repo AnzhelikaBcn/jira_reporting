@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="0" name="ut.com.xpandit.raven.service.impl.IssueDataSetTest" time="0.163" errors="0" skipped="0">
+  <properties>
+    ...
+  </properties>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidLimitOverflowOption_returnsExpectedSubset" time="0.114"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withNullOptionsAndValidIssue_throwsIllegalArgumentException" time="0.002"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidEmptyOptions_returnsAllIssues" time="0.002"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidGlobalSearchOptions_returnsExpectedTests" time="0.016"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndInvalidColumnSearchOption_returnsAllTests" time="0.007"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidLimitUnderOption_returnsExpectedSubset" time="0.001"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidGlobalSearchOptionThatMachesIssueKey_returnsExpectedTestWithMatchedKey" time="0.006"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidSummaryColumnAscSortOption_returnsExpectedIssuesInAscOrder" time="0.006"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidSummaryColumnDescSortOption_returnsExpectedIssuesInDescOrder" time="0.002"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidGlobalSearchOptionThatMatchesAllElements_returnsAllTests" time="0.001"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidColumnSearchOptionThatMatchesOneElement_returnsOneTest" time="0.002"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidColumnSearchOptionThatMatchesNoIssue_returnsEmptyList" time="0.001"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidGlobalSearchOptionThatMachesNoIssue_returnsEmptyList" time="0.001"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidKeyColumnDescSortOption_returnsExpectedIssuesInDescOrder" time="0.001"/>
+  <testcase classname="ut.com.xpandit.raven.service.impl.IssueDataSetTest" name="testApplyOptions_withValidIssueAndValidKeyColumnAscSortOption_returnsExpectedIssuesInAscOrder" time="0.001"/>
+</testsuite>
