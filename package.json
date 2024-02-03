@@ -6,7 +6,7 @@
   "scripts": {
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
-    "jira-upload": "curl -H \"Content-Type: text/xml\" -X POST -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiI1YmRiZTMwZi00NmJhLTM0NjQtYTJlNC1mN2M0YTM0OTNhZjQiLCJhY2NvdW50SWQiOiI3MTIwMjA6ZWJmMDRjMzQtMjc0Mi00ZTFhLThlNGItMWY0YWU2YzEyNzZhIiwiaXNYZWEiOmZhbHNlLCJpYXQiOjE3MDY3OTE1NTksImV4cCI6MTcwNjg3Nzk1OSwiYXVkIjoiRjI1ODIxNkM0MzI4NDUyNzhGNkQ1NUI2QjYyODc2MkUiLCJpc3MiOiJjb20ueHBhbmRpdC5wbHVnaW5zLnhyYXkiLCJzdWIiOiJGMjU4MjE2QzQzMjg0NTI3OEY2RDU1QjZCNjI4NzYyRSJ9.rcTix9NOP8txpjqFjp-ZfNzvBuvKOVyOu6PpH4GVaZk\"  --data @\"/Users/user/Desktop/___Testing/jira_reporting/test-results.xml\" https://xray.cloud.getxray.app/api/v2/import/execution/nunit?projectKey=JR"
+    "jira-upload": "curl -H \"Content-Type: text/xml\" -X POST -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiI1YmRiZTMwZi00NmJhLTM0NjQtYTJlNC1mN2M0YTM0OTNhZjQiLCJhY2NvdW50SWQiOiI3MTIwMjA6ZWJmMDRjMzQtMjc0Mi00ZTFhLThlNGItMWY0YWU2YzEyNzZhIiwiaXNYZWEiOmZhbHNlLCJpYXQiOjE3MDY5Njg3ODAsImV4cCI6MTcwNzA1NTE4MCwiYXVkIjoiRjI1ODIxNkM0MzI4NDUyNzhGNkQ1NUI2QjYyODc2MkUiLCJpc3MiOiJjb20ueHBhbmRpdC5wbHVnaW5zLnhyYXkiLCJzdWIiOiJGMjU4MjE2QzQzMjg0NTI3OEY2RDU1QjZCNjI4NzYyRSJ9.oF7_MI9M6nNC2M26f93pmlr5I_nAv1nyMg-8GZ4_log\"  --data @\"/Users/user/Desktop/___Testing/jira_reporting/test-results.xml\" https://xray.cloud.getxray.app/api/v2/import/execution/junit?projectKey=JR"
     
   },
   "keywords": [
